@@ -71,6 +71,11 @@ main {
   border-radius: 25px;
   margin: 2.5%;
 }
+main img {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
 h2 {
   font-family: 'Stint Ultra Expanded', cursive;
 }
@@ -87,6 +92,10 @@ p.more {
   font-family: verdana, sans-serif;
   text-transform: uppercase;
   font-size: .8em;
+  clear:left;
+}
+img[src*="muffin"] {
+  margin-left: 50px;
 }
 
 /* aside "hours" styles */
